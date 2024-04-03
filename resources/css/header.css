@@ -1,0 +1,93 @@
+.top_header {
+    background-color: black;
+    color: white;
+    padding: 12px 40px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount_msg_div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.discount_msg_div p {
+    font-weight: 400;
+    size: 14px;
+    line-height: 21px;
+}
+
+.discount_msg_div span {
+    font-weight: 600;
+    text-decoration: underline;
+    size: 14px;
+    line-height: 24px;
+}
+.options ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.options ul li span {
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 2px;
+}
+
+.nav_header {
+    border: 1px solid #eeeeee;
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+    padding: 2px 40px;
+}
+.nav_header logo img {
+    height: 60px;
+}
+
+.nav_header nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav_header nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav_header nav ul li span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.icons_container {
+    height: 38px;
+    margin-left: 6rem;
+    display: flex;
+    gap: 24px;
+}
+
+.input_box {
+    display: flex;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #eeeeee;
+    padding: 7px 12px 7px 20px;
+}
+
+.input_box input {
+    border: none;
+}
+
+.icons {
+    display: flex;
+    gap: 24px;
+}
